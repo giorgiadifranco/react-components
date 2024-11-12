@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-*{
-  border: dashed black;
-}
 
 .col-4 {
 
@@ -39,6 +36,7 @@ header{
 
 main{
  display: flex;
+ justify-content: center;
  
  .post_row{
 
