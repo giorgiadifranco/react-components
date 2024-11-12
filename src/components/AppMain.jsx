@@ -1,4 +1,5 @@
 import PostsCard from './PostsCard/PostsCard.jsx';
+
 export default function AppMain(){
 
     
