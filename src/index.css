@@ -4,9 +4,24 @@
   box-sizing: border-box;
 }
 
+*{
+  border: dashed black;
+}
+
+.col-4 {
+
+  width: calc((100%/12)*4)
+
+}
+
+body{
+
+  background-color: blanchedalmond;
+}
+
 header{
 
-  background-color: blue;
+  background-color: rgb(11, 106, 248);
   padding: 3rem;
   
 
@@ -16,8 +31,37 @@ header{
     align-items: center;
     padding: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: honeydew;
+    color: rgb(46, 48, 46);
     
    
   }
+}
+
+main{
+ display: flex;
+ 
+ .post_row{
+
+    display: flex;
+    justify-content: center;
+ }
+
+  .postCard{
+    display: flex;
+    flex-direction: column;
+    align
+
+     
+    
+  }
+
+ 
+
+  
+
+}
+.image{
+
+    
+  padding: 7rem;
 }

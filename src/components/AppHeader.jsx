@@ -2,8 +2,8 @@ export default function AppHeader(){
 
     //logica
 
-    const blogTitle = "My Daily Blog"
-    const blogSubTitle = "Welcome to my disorder life"
+    const blogTitle = "My Books Blog"
+    const blogSubTitle = "Reading make a straOrdinary life "
 
     return(
         <header>
